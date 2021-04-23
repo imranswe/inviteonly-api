@@ -5,7 +5,7 @@ This is a REST API for invite only registration. Admin can login and send invite
 ## How to run this project
 Run below commands to run the project
 
-`composer install`
+`composer install`\
 `php artisan key:generate`
 
 ### Setup database
@@ -13,8 +13,8 @@ Run below commands to run the project
 - Update your host, db and password in .env file. 
 - Run below commands after updating .env file
 
-`php artisan migrate`
-`php artisan passport:install`
+`php artisan migrate`\
+`php artisan passport:install`\
 `php artisan db:seed`
 
 ## License
